@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Einkaufsliste</title>
+  </head>
+  <body>
+    <div class="main__block">
+      <div class="add__product">
+        <h1>Einkaufsliste</h1>
+        <input
+          type="text"
+          placeholder="Product hinzufügen"
+          class="item__name"
+        />
+        <input
+          type="text"
+          placeholder="Quantität hinzufügen"
+          class="item__quantity"
+        />
+        <input
+          type="text"
+          placeholder="Kommentar hinzufügen"
+          class="item__comment"
+        />
+        <button onclick="addItem()">Hinzufügen</button>
+      </div>
+
+      <div class="products">
+        <table>
+          <tr>
+            <td>Product name</td>
+            <td>Quantity</td>
+            <td>Comment</td>
+            <td>DEL</td>
+          </tr>
+        </table>
+        <table class="products__items"></table>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

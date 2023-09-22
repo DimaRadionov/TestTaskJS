@@ -1,0 +1,100 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+h1{
+ text-align: center;
+ color: whitesmoke;
+}
+body{
+  background: url('../images/bg.jpg');
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.main__block{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.products{
+  width: 1000px;
+  margin: 20px 20px 0 0;
+}
+.add__product{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  margin: 20px 0 0 20px;
+  background: #000000d2;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px black;
+
+}
+.add__product input{
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  background: transparent;
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+}
+.add__product input:focus{
+  outline: none;
+}
+.add__product button{
+  width: max-content;
+  display: block;
+  margin-left: auto;
+  background: transparent;
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  color: whitesmoke;
+  padding: 4px 15px;
+  font-size: 25px;
+}
+.add__product button:hover{
+  cursor: pointer;
+}
+table{
+  background: #000000d2;
+  width: 100%;
+}
+table tr:first-child td{
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}
+table tr td{
+  width: 30%;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  height: 30px;
+}
+table tr td:nth-child(4){
+  width: 10%;
+  padding: 0;
+}
+table tr td button{
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #c00c0c;
+  border: none;
+  color: whitesmoke;
+  font-size: 30px;
+}
+table tr td button:hover{
+  cursor: pointer;
+}
